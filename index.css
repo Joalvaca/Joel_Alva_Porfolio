@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Main-container{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+.Headline{
+    border:2px solid black;
+    margin-bottom:10px;
+    padding: 12px 12px; 
+    color:white;
+    background-color:black;
+ 
+}
+h1{
+margin-bottom: 12px;
+font-size: 40px;
+
+}
+
+p{
+    margin-bottom:12px;
+    font-size: 26px;
+}
+#Nav-section{
+    display:flex;
+    border:2px solid black;
+    justify-content: center;
+    background-color:white;
+    color: rgb(11, 11, 11);
+    padding:60px;
+    margin-top:40px;
+}
+#Bio-link{
+    border:2px solid black;
+    width:300px;
+    text-align: center;
+    padding: 80px;
+    margin:20px;
+    
+}
+#Projects-link{
+    border:2px solid black;
+    width:300px;
+    text-align: center;
+    padding: 80px;
+    margin:20px;
+}
+#Contact-link{
+    border:2px solid black;
+    width:300px;
+    text-align: center;
+    padding: 80px;
+    margin:20px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#Bio-section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border:2px solid black;
+    width:300px;
+    text-align: center;
+    padding: 220px;
+    margin-top:40px;
+}
+#Projects-section{
+    display: flex;
+    justify-content: center;
+    border:2px solid black;
+    width:300px;
+    text-align: center;
+    padding: 220px;
+    margin:40px;
+}
+#Projects-cards{
+    display:flex;
+    flex-direction: column;
+}
+#Quiz-app{
+    border: 2px solid black;
+    padding: 250px;
+    margin-bottom:80px;
+}
+#Capstone1{
+    border: 2px solid black;
+    padding: 250px;
+    margin-bottom:80px;
+}
+#Capstone2{
+    border: 2px solid black;
+    padding: 250px;
+    margin-bottom:80px;
+}
+#Contact-section{
+    display: flex;
+    justify-content: center;
+    border:2px solid black;
+    width:300px;
+    text-align: center;
+    padding: 220px;
+    margin:20px;
+}
+.footer{
+    display:flex;
+    flex:1;
+    border:2px solid black;
+    justify-content: center;
+    background-color:black;
+    color: rgb(11, 11, 11);
+    width:100%;
+    padding:50px;
+    color:white;
+    margin-top:40px;
+    
+}
