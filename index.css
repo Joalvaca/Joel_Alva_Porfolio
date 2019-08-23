@@ -22,10 +22,14 @@ margin-bottom: 12px;
 font-size: 40px;
 
 }
+.Project-header{
+    margin-top:20px;
+}
 
 p{
     margin-bottom:12px;
-    font-size: 26px;
+    font-size: 20px;
+    line-height: 40px;
 }
 #Nav-section{
     display:flex;
@@ -38,25 +42,43 @@ p{
 }
 #Bio-link{
     border:2px solid black;
-    width:300px;
+    width:33.3%;
     text-align: center;
     padding: 80px;
     margin:20px;
-    
+}
+#Bio-link:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    transition: 1s;
 }
 #Projects-link{
     border:2px solid black;
-    width:300px;
+    width:33.3%;
     text-align: center;
     padding: 80px;
     margin:20px;
 }
+#Projects-link:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    transition: 1s;
+}
+
 #Contact-link{
     border:2px solid black;
-    width:300px;
+    width:33.3%;
     text-align: center;
     padding: 80px;
     margin:20px;
+}
+#Contact-link:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    transition: 1s;
 }
 main{
     display:flex;
@@ -65,51 +87,68 @@ main{
 
 }
 #Bio-section{
-    display: flex;
-    justify-content: center;
     align-items:center;
     border:2px solid black;
-    width:300px;
+    width:50%;
     text-align: center;
-    padding: 220px;
+    padding: 40px;
     margin-top:40px;
 }
 #Projects-section{
-    display: flex;
-    justify-content: center;
     border:2px solid black;
-    width:300px;
+    width:50%;
     text-align: center;
-    padding: 220px;
+    padding: 40px;
     margin:40px;
 }
 #Projects-cards{
     display:flex;
     flex-direction: column;
+    
 }
 #Quiz-app{
+    text-align: center;
     border: 2px solid black;
-    padding: 250px;
-    margin-bottom:80px;
+    padding: 40px;
+    margin-bottom:10px;
 }
 #Capstone1{
     border: 2px solid black;
-    padding: 250px;
+    padding: 40px;
     margin-bottom:80px;
 }
 #Capstone2{
     border: 2px solid black;
-    padding: 250px;
+    padding: 40px;
     margin-bottom:80px;
 }
 #Contact-section{
     display: flex;
     justify-content: center;
     border:2px solid black;
-    width:300px;
+    width:50%;
     text-align: center;
-    padding: 220px;
-    margin:20px;
+    padding: 40px;
+    margin:40px;
+}
+button{
+   background-color:white;
+   color:black;
+   padding: 16px 0px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+   width:30%; 
+   margin: 0px 12px; 
+   margin-bottom:20px;
+   border: 2px solid black;
+   cursor: pointer;
+}
+button:hover{
+    background-color:black;
+    color:white;
+    transition:.4s;
+
 }
 .footer{
     display:flex;
