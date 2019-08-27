@@ -152,24 +152,26 @@ main{
     margin:40px;
     
 }
-button{
+.button{
    background-color:white;
    color:black;
-   padding: 16px 0px;
+   padding: 10px 30px;
    text-align: center;
    text-decoration: none;
    font-size: 20px;
-   width:30%; 
    margin: 0px 12px; 
-   margin-bottom:20px;
    border: 2px solid black;
    cursor: pointer;
 }
-button:hover{
+.button:hover{
     background-color:black;
     color:white;
     transition:.4s;
 
+}
+.Github-links{
+    display:flex;
+    justify-content: center;
 }
 .footer{
     display:flex;
@@ -212,10 +214,7 @@ i{
 #Nav-section{
     display:flex;
     flex-direction: column;
-    align-items: center;
-    
-    
-    
+    align-items: center;  
 }
 #Bio-link{  
     text-align: start;
@@ -262,7 +261,7 @@ h1{
     margin:40px;
     padding:70px;
 }
-button{
+.button{
     font-size:15px;
 }
 .a-link{
