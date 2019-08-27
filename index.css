@@ -194,6 +194,7 @@ button:hover{
     font-size:20px;
     width:33.3%;
     text-align: center;
+    margin:0px 12px;
 }
 .a-link:hover{
     text-decoration: underline;
@@ -240,7 +241,7 @@ i{
 }    
 
 h1{
-    font-size: 30px;
+    font-size: 25px;
 }
 #Bio-link{  
     text-align: center;
@@ -260,4 +261,13 @@ h1{
     width:33.3%;
     margin:40px;
     padding:70px;
+}
+button{
+    font-size:15px;
+}
+.a-link{
+    font-size: 15px;
+}
+p{
+    font-size:15px;
 }
