@@ -25,6 +25,7 @@ h1{
 font-size: 40px;
 
 }
+
 #Bio-header{
     margin-bottom:40px;
 }
@@ -55,6 +56,9 @@ p{
     padding: 50px;
     margin:20px;
     height:150px;
+    text-decoration: none;
+    font-size:30px;
+    color:black;
     
 }
 #Bio-link:hover{
@@ -73,6 +77,9 @@ p{
     text-align: center;
     padding: 50px;
     margin:20px;
+    text-decoration: none;
+    font-size:30px;
+    color:black;
 }
 #Projects-link:hover{
     background-color:black;
@@ -91,6 +98,9 @@ p{
     text-align: center;
     padding: 50px;
     margin:20px;
+    text-decoration: none;
+    font-size:30px;
+    color:black;
 }
 #Contact-link:hover{
     background-color:black;
@@ -242,6 +252,7 @@ i{
 h1{
     font-size: 25px;
 }
+
 #Bio-link{  
     text-align: center;
     width:33.3%;
