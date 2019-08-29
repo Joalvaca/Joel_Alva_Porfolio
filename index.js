@@ -1,9 +1,15 @@
 $(document).ready(function(){
-$('a').click(function(){
+    
+    
+    $('a').click(function(){
+    
+       
+    
+        $('html,body').animate({
+            scrollTop: $($(this).attr('href')).offset().top});
+        });
+       
+    }); 
+    
 
-        
-    $('html','body').animate({
-        scrollTop: $($(this).attr('href')).offset().top,
-    },'slow');
-}); 
-});
+    
