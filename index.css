@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 25px;
 
 }
 
@@ -42,34 +42,41 @@ h1 {
 
 p {
     margin-bottom: 12px;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 40px;
 }
 
 #Nav-section {
     display: flex;
-    justify-content: center;
-    background-color: white;
-    color:black;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Bio-section,
+#Projects-section,
+#Contact-section {
+    width: 80%;
 }
 
 #Bio-link,
 #Projects-link,
 #Contact-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     border: 2px solid black;
-    width: 33.3%;
     flex: 33.3%;
-    text-align: center;
-    padding: 50px;
-    margin: 20px;
-    height:150px;
     text-decoration: none;
     font-size: 30px;
     color: black;
 
+}
+
+#Bio-link,
+#Projects-link,
+#Contact-link {
+    margin: 40px;
+    padding: 70px;
+    width: 33.3%;
+    text-align: center;
 }
 
 #Bio-link:hover,
@@ -88,21 +95,25 @@ main {
 
 }
 
-#Bio-section {
-    align-items: center;
+#Bio-section,
+#Projects-section {
     border: 2px solid black;
-    width: 50%;
     text-align: center;
     padding: 40px;
     margin-top: 40px;
+    width: 80%;
 }
 
-#Projects-section {
+#Contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 2px solid black;
-    width: 50%;
     text-align: center;
     padding: 40px;
     margin: 40px;
+    width: 80%;
+
 }
 
 #Projects-cards {
@@ -120,28 +131,11 @@ main {
     width: 100%;
 }
 
-#Capstone1 {
-    border: 2px solid black;
-    padding: 40px;
-    margin-bottom: 80px;
-}
-
+#Capstone1,
 #Capstone2 {
     border: 2px solid black;
     padding: 40px;
     margin-bottom: 80px;
-}
-
-#Contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 2px solid black;
-    width: 50%;
-    text-align: center;
-    padding: 40px;
-    margin: 40px;
-
 }
 
 .button {
@@ -150,7 +144,7 @@ main {
     padding: 10px 30px;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0px 12px;
     border: 2px solid black;
     cursor: pointer;
@@ -190,8 +184,8 @@ main {
 .a-link {
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    width: 33.3%;
+    font-size: 17px;
+    width: 44.3%;
     text-align: center;
     margin: 0px 12px;
 }
@@ -202,7 +196,7 @@ main {
 }
 
 i {
-    font-size: 40px;
+    font-size: 30px;
     margin: 10px;
 }
 
@@ -210,7 +204,9 @@ i {
     color: black;
 }
 
-@media (max-width:900px) {
+
+
+@media(min-width:650px) {
     #Nav-section {
         display: flex;
         flex-direction: column;
@@ -222,6 +218,7 @@ i {
     #Contact-link {
         text-align: start;
         width: 70%;
+        padding: 55px;
     }
 
     #Bio-section,
@@ -229,43 +226,59 @@ i {
     #Contact-section {
         width: 80%;
     }
-}
 
-@media(max-width:650px) {
-    #Nav-section {
+    #Contact-section {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        text-align: center;
+        padding: 40px;
+        margin: 40px;
     }
+}
+
+@media(min-width:900px) {
 
     h1 {
-        font-size: 25px;
+        font-size: 40px;
+
+    }
+
+    p {
+        margin-bottom: 12px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .button {
+        font-size: 20px;
+    }
+
+    #Nav-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        color: black;
     }
 
     #Bio-link,
     #Projects-link,
     #Contact-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
-        width: 33.3%;
-        margin: 40px;
-        padding: 70px;
+        padding: 60px;
+        margin: 20px;
+        font-size: 30px;
+        height: 120px;
     }
 
-    #Bio-section,
-    #Projects-section,
-    #Contact-section {
-        width: 80%;
+    i {
+        font-size: 40px;
     }
 
-    .button {
-        font-size: 15px;
-    }
 
-    .a-link {
-        font-size: 15px;
-    }
-
-    p {
-        font-size: 15px;
-    }
 }
