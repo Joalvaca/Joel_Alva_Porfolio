@@ -1,101 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>Joel's Portfolio</title>
-    <script src="https://kit.fontawesome.com/cb09f03be0.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-
-<body class="Main-container">
-    <nav Class="Headline">
-        <h1>Joel Alva Calderon</h1>
-        <p>
-            Chemist turned software developer, formulating a path to a solution.
-        </p>
-    </nav>
-    <section id="Nav-section">
-        <a href="#Bio-section" id="Bio-link">About Me</a>
-        <a href="#Projects-section" id="Projects-link">Portfolio</a>
-        <a href="#Contact-section" id="Contact-link">Contact</a>
-    </section>
-    <main>
-        <section id="Bio-section">
-            <h1 id="Bio-header">A little about Joel</h1>
-            <p>Joel is from Raleigh, NC, where he has recently graduated from the Thinkful Full Stack program. Joel
-                believes that with a healthy daily dose of HTML, CSS, JavaScript, and jQuery the brain stays sharp by
-                promoting interactivity. The brain just like any other muscle needs to be exercised through problem-solving
-                and critical thinking. He also believes in exercising the body and spends his free time at the gym. His
-                other interests include PC gaming, dancing, and developing a business venture through the sneaker
-                market.
-            </p>
-        </section>
-        <section id="Projects-section">
-            <div id="Projects-cards">
-                <h1 class="Project-header">Polar Quiz App</h1>
-                <div id="Quiz-app">
-                    <img class="image" src="Polarchef.screenshot.JPG" alt="Picture of Quiz App" />
-                </div>
-                <p>Here, I’ve made a quiz app for members of a sneaker Discord group, called Polar Chefs. I made this as
-                    a challenge to see how much they really know about sneakers.
-                    Here I’ve implemented HTML, CSS, Javascript, and JQuery.
-                </p>
-                <div id="Github-links">
-                    <div class="Github-links">
-                        <a href='https://github.com/Joalvaca/Polar-Quiz-App.git' class="button"
-                            target="_blank">GitHub</a>
-                        <a href='https://joalvaca.github.io/Polar-Quiz-App/' class="button" target="_blank">Demo</a>
-                    </div>
-                </div>
-                <h1 class="Project-header">Capstone1</h1>
-                <div id="Capstone1">CapStone1</div>
-                <p>Capstone Description </p>
-                <div class="Github-links">
-                    <div class="Github-links">
-                        <a href='https://github.com/Joalvaca/Polar-Quiz-App.git' class="button"
-                            target="_blank">GitHub</a>
-                        <a href='https://joalvaca.github.io/Polar-Quiz-App/' class="button" target="_blank">Demo</a>
-                    </div>
-                </div>
-                <h1 class="Project-header">Capstone2</h1>
-                <div id="Capstone2">CapStone2</div>
-                <p>Capstone2 Description</p>
-                <div class="Github-links">
-                    <a href='https://github.com/Joalvaca/Polar-Quiz-App.git' class="button" target="_blank">GitHub</a>
-                    <a href='https://joalvaca.github.io/Polar-Quiz-App/' class="button" target="_blank">Demo</a>
-                </div>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" type="text/css" href="index.css" />
+      <title>Joel's Portfolio</title>
+      <script src="https://kit.fontawesome.com/cb09f03be0.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   </head>
+   <body class="main-container">
+      <nav class="headline">
+         <div class="intro">
+            <h1 class="name">Joel Alva Calderon</h1>
+         </div>
+         <div class="contact-icons">
+            <a class="icon-link" href="https://github.com/Joalvaca" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="icon-link" href="https://www.linkedin.com/in/joel-alva-calderon-0a46b4141" target="_blank"><i
+               class="fab fa-linkedin-in"></i></a>
+            <a class="icon-link" href="https://twitter.com/Joalva_ca" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="icon-link" href="mailto:Joalvacal@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+         </div>
+      </nav>
+      <main>
+         <section class="bio-section">
+            <div class="bio-container">
+               <h1 class="section-title">About</h1>
+               <img src="Profile-pic.jpg" class="profile" alt="" />
+               <p>
+                  Enthusiastic chemist turned web developer that thrives through problem-solving and critical thinking. Can
+                  succeed independently or through collaborative teamwork through execution of educational knowledge and
+                  accumulated experiences.
+                  During my free time I enjoy solving daily puzzles, cooperating with Teammates, clearing objectives and
+                  developing a business through the sneaker market.
+               </p>
             </div>
-        </section>
-        <section id="Contact-section">
-            <p>I'm currently seeking for new opportunities and challenges and I can be contacted by the following links:
-            </p>
-            <div id="Contact-icons">
-                <a class="Icon-link" href="https://github.com/Joalvaca" target="_blank"><i
-                        class="fab fa-github"></i></a>
-                <a class="Icon-link" href="https://www.linkedin.com/in/joel-alva-calderon-0a46b4141" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a class="Icon-link" href="https://twitter.com/Joalva_ca" target="_blank"><i
-                        class="fab fa-twitter"></i></a>
-                <a class="Icon-link" href="mailto:Joalvacal@gmail.com" target="_blank"><i
-                        class="fas fa-envelope"></i></a>
+         </section>
+         <h1 class="section-title">Projects</h1>
+         <div class="projects">
+            <div class="project">
+               <h2>Polar-Footprint</h2>
+               <img src="polar-homepage.jpg" alt="" />
+               <p class="description">
+                  An application that allows helps users keep track of inventory, so
+                  that you can better manage your time, money, and stock.
+               </p>
+               <p class="technologies">React | CSS | Node | Express | PostgreSQL</p>
+               <a href="https://github.com/Joalvaca/Polar-Footprint" class="button" target="_blank">Client Repo</a>
+               <a href="https://github.com/Joalvaca/Polar-Server.git" class="button" target="_blank">Server Repo</a>
+               <div class="live-site">
+                  <a href="https://polar-app.now.sh/" class="button" target="_blank">Live Site</a>
+               </div>
             </div>
-        </section>
-        <footer class="footer">
-            <div id="Footer-links">
-                <div class="a-link"><a class="a-link" href="https://www.linkedin.com/in/joel-alva-calderon-0a46b4141"
-                        target="_blank">Linkedin</a></div>
-                <div class="a-link"><a class="a-link" href="https://github.com/Joalvaca" target="_blank">GitHub</a>
-                </div>
-                <div class="a-link"><a class="a-link" href="mailto:Joalvacal@gmail.com"
-                        target="_blank">Joalvacal@gmail.com</a></div>
+            <div class="project">
+               <h2>Claire-App</h2>
+               <img src="Claire-app.jpg" alt="" />
+               <p class="description">
+                  An application that showcases Claire technologies three main
+                  products and specifications.
+               </p>
+               <p class="technologies">React | CSS | Node | Express | PostgreSQL</p>
+               <a href="https://github.com/Joalvaca/Claire-Site" class="button" target="_blank">Client Repo</a>
+               <a href="https://github.com/Joalvaca/Claire-Server.git" class="button" target="_blank">Server Repo</a>
+               <div class="live-site">
+                  <a href="https://claire-app.joalvaca.now.sh/" class="button" target="_blank">Live Site</a>
+               </div>
             </div>
-        </footer>
-    </main>
-    <script src="index.js"></script>
-</body>
-
+            <div class="project">
+               <h2>
+                  Barcode Hunter
+               </h2>
+               <img src="Upc.ScreenShot2.PNG" alt="" />
+               <p class="description">
+                  An application made to help the user find sneaker bargains at retail
+                  shops.
+               </p>
+               <p class="technologies">HTML | CSS | JavaScript | jQuery</p>
+               <a href="https://github.com/Joalvaca/UPC-Bargin-Hunter" class="button" target="_blank">GitHub</a><a
+                  href="https://joalvaca.github.io/UPC-Bargin-Hunter/" class="button" target="_blank">Live Site</a>
+            </div>
+         </div>
+         <h1 class="section-title">Skills</h1>
+         <section class="skills">
+            <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>JavaScript</li>
+               <li>jQuery</li>
+               <li>Node.js</li>
+               <li>React</li>
+               <li>Git</li>
+               <li>Github</li>
+               <li>Express</li>
+               <li>PostgreSQL</li>
+               <li>Heroku</li>
+               <li>Zeit</li>
+            </ul>
+         </section>
+         <footer class="footer">
+            <div class="footer-links">
+            <div class="a-link">
+               <a class="icon-link" href="https://github.com/Joalvaca" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="a-link">
+               <a class="icon-link" href="https://www.linkedin.com/in/joel-alva-calderon-0a46b4141" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="a-link">
+               <a class="icon-link" href="https://twitter.com/Joalva_ca" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="a-link">
+               <a class="icon-link" href="mailto:Joalvacal@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+         </footer>
+      </main>
+   </body>
 </html>
