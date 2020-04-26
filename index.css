@@ -16,7 +16,6 @@ body {
 }
 
 .headline {
-  display: flex;
   justify-content: space-between;
   border: 2px solid black;
   margin-bottom: 10px;
@@ -25,9 +24,25 @@ body {
   background-color: black;
 }
 
+.intro-quote {
+  text-align: left;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 3rem;
+}
+
 .name {
   text-align: start;
-  margin-top: 40px;
+  margin-top: 71px;
 }
 
 h1 {
@@ -45,6 +60,8 @@ h2 {
 
 .contact-icons {
   margin-top: 30px;
+  text-align: right;
+  padding: 0 0 5rem;
 }
 
 .project-header {
@@ -60,9 +77,10 @@ p {
 }
 
 .profile {
+  height: 220px;
   width: auto;
   margin: 30px;
-  height: 200px;
+  border-radius: 50%;
 }
 
 .bio-section {
@@ -204,10 +222,6 @@ img {
   p {
     margin-bottom: 12px;
     font-size: 20px;
-  }
-
-  .name {
-    margin-top: 30px;
   }
 
   .button {
