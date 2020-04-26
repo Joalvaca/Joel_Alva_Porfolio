@@ -25,7 +25,7 @@ body {
 }
 
 .intro-quote {
-  text-align: left;
+  text-align: center;
 }
 
 .intro {
@@ -37,11 +37,12 @@ body {
 .intro-section {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding: 0 0 3rem;
 }
 
 .name {
-  text-align: start;
+  text-align: center;
   margin-top: 71px;
 }
 
@@ -219,6 +220,13 @@ img {
     font-size: 40px;
   }
 
+  .intro-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 3rem;
+  }
+
   p {
     margin-bottom: 12px;
     font-size: 20px;
@@ -230,6 +238,10 @@ img {
 
   i {
     font-size: 40px;
+  }
+
+  .name {
+    text-align: start;
   }
 
   .projects {
